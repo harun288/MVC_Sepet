@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row mt-2">
+    <div class="col-md-9">
+        <div class="card">
+            <div class="card-header">
+                <h5>My Cart</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ürün Görsel</th>
+                            <th>Ürün Bilgisi</th>
+                            <th>Adet</th>
+                            <th>Ara Toplam</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img style="width:150px; height:100px;" class="card-img" src="https://egeosgb.com.tr/wp-content/uploads/2016/11/orionthemes-placeholder-image-1.png" />
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Chai</li>
+                                    <li>18</li>
+                                    <li>2 box</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <select class="custom-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </td>
+                            <td>
+                                800 TL
+                            </td>
+                            <td>
+                                <button class="btn btn-sm btn-warning">Güncelle</button>
+                                <button class="btn btn-sm btn-danger">Sil</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Sepet Özet</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item mb-2"> Kargo Ücreti: 10 TL</li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item mb-2"> Toplam Ücret: 100 TL</li>
+                </ul>
+                <button class="btn btn-primary btn-block">Siparişi Tamamla</button>
+                <button class="btn btn-block">Alışverişe Devam Et</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
